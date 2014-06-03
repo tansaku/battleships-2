@@ -13,9 +13,10 @@ Board
 	- knows what ships it has
 	- knows the status of each ship
 	- knows when no more ships
-  - responsible for informing "game" no more ships 
-	- has size/dimension (aka range A1..J10)
-	- has to inform opponent's board about each hit 
+	- responsible for informing game that there are no more ships
+	- has size/dimensions (aka range A1..J10)
+	- has to inform opponent's board about each hit
+
 
 Person
 ------
@@ -25,10 +26,10 @@ Person
 Rules
 -----
 	- One player can have ten ships :
-		1 battleship (size 4)
-		2 cruisers (size 3)
-		3 destroyers (size 2)
-		4 submarine (size 1)
+		 1 battleship (size 4)
+		 2 cruisers (size 3)
+		 3 destroyers (size 2)
+		 4 submarine (size 1)
 	- The ships cannot be placed on another ship
 	- The ships must be placed inside the dimensions of the Board
 	- When all the segment of the ship are hit, the ship sinks
