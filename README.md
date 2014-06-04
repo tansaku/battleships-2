@@ -10,11 +10,11 @@ Ship
 
 Board
 -----
+	- has size/dimensions (aka range A1..J10)
 	- knows what ships it has
 	- knows the status of each ship
-	- knows when no more ships
+	- knows when there are no more ships
 	- responsible for informing game that there are no more ships
-	- has size/dimensions (aka range A1..J10)
 	- has to inform opponent's board about each hit
 
 
